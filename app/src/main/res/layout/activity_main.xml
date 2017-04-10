@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/full_text"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:transitionGroup="true">
+
+    <TextView android:text="Text to Speech" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_second"
+        android:text="c for cat"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:textSize="450dp" />
+
+
+</LinearLayout>
